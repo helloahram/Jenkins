@@ -5,4 +5,4 @@ FROM nginx:alpine
 COPY ./index.html /usr/share/nginx/html/index.html
 
 # 포트 8090 을 오픈
-EXPOSE 80
+EXPOSE 8090
