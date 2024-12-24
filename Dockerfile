@@ -9,6 +9,3 @@ RUN sed -i 's/listen\s*8090;/listen 8090;/g' /etc/nginx/conf.d/default.conf
 
 # 포트 8090 을 오픈
 EXPOSE 8090
-
-# nginx를 foreground에서 실행
-CMD ["nginx", "-g", "daemon off;"]
